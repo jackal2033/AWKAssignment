@@ -34,5 +34,5 @@ END	{
 	print ""
 	print "				SORTED SALES LIST"
 	for ( x in staffIDArray)
-		{printf("%10s %-20s %-20s \n", staffIDArray[x], staffNameArray[x], salesTotalArray[x])}
+		{printf("%10s %-20s %-20s \n", staffIDArray[x], staffNameArray[x], salesTotalArray[x]) | "sort -nk4"}
 }
